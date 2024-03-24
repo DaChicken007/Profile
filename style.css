@@ -1,0 +1,94 @@
+body {
+    background: #1e00ff; 
+                background: -moz-linear-gradient(45deg, #000000 0%, #003457 25%, #0030f2 50%, #0df2ee 75%, #013f41 100%); 
+                background: -webkit-linear-gradient(45deg, #000000 0%, #003457 25%, #0030f2 50%, #0df2ee 75%, #013f41 100%); 
+                background: linear-gradient(45deg, #000000 0%, #003457 25%, #0030f2 50%, #0df2ee 75%, #013f41 100%); 
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:#f1f1f1;
+    margin:0;
+    text-decoration: none;
+}
+
+header img , section img {
+    background:url(cat.jpg);
+    border-radius:50%;
+    border:7px solid rgb(90, 167, 255);
+    box-shadow:0px 5px 10px lightblue;
+    height:200px;
+    width:200px;
+    background-size: cover;
+    margin:30px 0;
+}
+
+header img:hover , section img:hover {
+    box-shadow:0px 5px 20px lightblue;
+}
+
+header {
+    width:100%;
+}
+
+section {
+    text-decoration: none;
+    margin:50px 0;
+}
+
+.box {
+    background:black;
+    display:block;
+    width:450px;
+    color:#f1f1f1;
+    text-decoration:none;
+    padding:10px 0;
+    border-radius:30px;
+    box-shadow: 0 5px 10px black;
+}
+
+section a {
+    color:#f1f1f1;
+    text-decoration:none;
+    font-size:25px;
+}
+
+.box:hover {
+    box-shadow: 0 5px 20px black;
+}
+
+p {
+    font-size:30px;
+    font-weight:bold;
+}
+
+video {
+    border-radius:30px;
+    border:8px solid cyan;
+    width:350px;
+    margin:20px 0;
+}
+
+.lov {
+    background:black;
+    color:#f1f1f1;
+    padding:10px 5px;
+    width:1200px;
+    margin:20px;
+    border-radius:50px;
+}
+
+.lov h1 {
+    color:#0df2ee;
+}
+
+.love img {
+    height:20px;
+    position:fixed;
+    top:5px;
+    right:5px;
+}
+
+.i img {
+    height:400px;
+    margin:20px;
+    border:7px solid gold;
+    border-radius:20px;
+}
